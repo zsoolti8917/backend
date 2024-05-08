@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_feature_blocks",
+  "info": {
+    "displayName": "Feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "CLOCK_ICON",
+        "CHECK_ICON",
+        "CLOUD_ICON"
+      ]
+    }
+  }
+}
